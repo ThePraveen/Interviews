@@ -40,11 +40,6 @@ static struct node* reverseA(struct node* head)
     return prev;
 }
 
-
-
-
-
-
 void recursiveReverse(struct node** head_ref)
 {
     struct node* first;
