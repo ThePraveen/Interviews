@@ -9,3 +9,8 @@ Links to topis
 2. http://www.geeksforgeeks.org/memory-layout-of-c-program/
 3. http://www.geeksforgeeks.org/structure-member-alignment-padding-and-data-packing/
 4. http://www.geeksforgeeks.org/clone-binary-tree-random-pointers/
+
+
+
+
+This also contains unsolved questions
