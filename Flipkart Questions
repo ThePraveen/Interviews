@@ -1,0 +1,52 @@
+My Questions:
+--------------------
+
+Problem 1
+----------------
+(Level: SDE1)
+You have to transport goods via road (truck) from Bangalore to Pune (800 Km approx.). Your vehicle gives you a mileage of 100 Kms. You can assume that you get to start with a full tank from Bangalore. You are also aware at which points (distance relative to source) (E.g 30 Km, 75 Km, 90 Km, 140 Km, 170 Km, 180 Km, 220 Km, ..., 770 Km) you have refuelling stations. However, stopping at each refuelling station costs you time which you want to save. Design an algorithm which will take you to your destination with minimum number of refuelling stops.
+
+Problem 2
+----------------
+(Level: SDE1----> SDE2)
+version 1: You are given a list of meetings (each meeting has a start time and a finish time) and a meeting room. Design an algorithm to assign maximum number of meetings                         possible to this meeting room.
+version 2: Now you are given an infinite number of meeting rooms and you have been asked to schedule all meetings using minimum number of meeting rooms. Give an algorithm for the same.
+version 3: Now we introduce another parameter of capacity to a meeting room and strength to each meeting and a meeting can be assigned to a room if the corresponding strength <= capacity. What will be your approach now?
+
+Problem 3
+---------------
+(Level: SDE1, SDE2)
+I am writing a software module M, while writing M, I had to import dependencies M1, M2, M3. However, I later figured out that M1 and M2 depends on M4 which again depended on M7. M2 also depends on M5 and M5 depends on M7. M3 depends on M6 which in turn depends on M5. Design an algorithm which given the kind of dependencies described above, finds the correct order of installation of these modules. All dependencies of a module should occur before that module in the ordered list.
+
+Problem 4
+---------------
+(Level: SDE2)
+Given a dictionary D of words, a source word s, a target word t, and a set of operations allowed, namely {INSERT, DELETE, REPLACE} (one character at a time), design an algorithm, which finds if it is possible to go from source word to target word using operations from the set mentioned while ensuring all intermediate words belong to the dictionary, and if it is possible, give a minimum length sequence of operations needed to obtain the target word.
+
+
+
+
+
+
+
+
+
+
+
+Machine coding round question
+------------------------------------------
+(Non Battleship)
+
+Employee-Ticket Management
+
+1> You have to model an employee hierarchy, where CEO is at the top and followed by top executives in the next level and so on and employees (with no direct reports) at the bottom of the hierarchy. You can assume that the entire employee hierarchy fits in memory and implement the same appropriately (Persistence not required). 
+Each employee has: EmployeeID (unique), Name, designation, email, phone, (for SDE 2) inbox (a list of messages)
+
+There are Tickets (can be Bugs or Features) associated to employees. A ticket cannot be dangling (you can assume at least CEO will be present) and needs to be reported by one employee and assigned to an employee (only one employee). (For SDE 2: Multiple employees can subscribe to a ticket, Whenever a ticket is modified, it should notify "Ticket <TicketID> Updated" to all its subscribers) A ticket has: TicketID (unique), url, summary, description, reporter, assignee, state (OPEN / RESOLVED / REOPENED)
+
+Requirements:
+1> display all details of an employee with employee ID, and a ticket with ticketID
+2> create ticket with a reporter  (employeeID) and assignee (employeeID) and the other required fields
+3> get an escalation list for a ticket with ticketID, return value should be an ordered list of EmployeeIDs (Immediate manager, next manager above him and so on)
+(SDE 2)
+4> change the description of a ticket (and a notification should go out to the inbox of all subscribed employees).
