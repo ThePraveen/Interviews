@@ -14,6 +14,9 @@ Links to topis
 7. http://en.wikipedia.org/wiki/Interval_scheduling
 8. http://www.careercup.com/question?id=4834977277542400
 9. Find alpbabet order for an alien dictionary - http://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+10. Smallest range that include elements from all the lists of size k.  http://www.careercup.com/question?id=16759664
+11. Pots of gold game (Minimax) : http://www.careercup.com/question?id=15422849
+12. ReArrange by given order of taller ahead: http://www.careercup.com/question?id=24532662
 
 
 
