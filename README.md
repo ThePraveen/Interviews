@@ -21,6 +21,7 @@ Links to topis
 14. Generate the sequence 2,3,4,5,b. 2^i* 3^j*4^k*5^l http://www.careercup.com/page?pid=google-interview-questions&sort=votes
 15. Probability that there will be number : http://www.careercup.com/question?id=5912840674213888
 16. Task scheduling problem : http://www.careercup.com/question?id=6282171643854848
+17. Max diff of an integer array a[i]-a[j] such that a[i]>a[j] and i>j.
 
 
 
