@@ -25,4 +25,18 @@ Links to topis
 
 
 
+# MyInterviewsSDE2
+Inyteview Questions for SDE2
+
+1. Design and DS: Implement tetris game
+2. Probablity that a person lives when he moves n steps on an island: http://www.careercup.com/question?id=15556758
+3. Find two nodes in a BST whose sum is X. http://www.careercup.com/question?id=15320677
+4. Calculat steps from room to nearest Guard: http://www.careercup.com/question?id=4716965625069568
+5. Given two strings a and b, find whether any anagram of string a is a sub-string of string b : http://www.careercup.com/question?id=5389078581215232
+6. Aggregated number ; http://www.careercup.com/question?id=14948278
+7. Box stack problem: http://www.geeksforgeeks.org/dynamic-programming-set-21-box-stacking-problem/
+8. Dynamic problem : https://people.cs.clemson.edu/~bcdean/dp_practice/
+
+
+
 This also contains unsolved questions
