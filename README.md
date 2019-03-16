@@ -40,3 +40,19 @@ Inyteview Questions for SDE2
 
 
 This also contains unsolved questions
+
+
+
+
+Amazon
+1. Find LargestIdenticalSubtreeTreeNode
+1. Design rate limiter
+2. Design Session management system at scale
+
+
+Google
+1. Top 10 ip address in log
+2. child and toy tables
+3. How does www.google.com work?
+
+
